@@ -1,0 +1,169 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #121212;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+    background-color: #080808;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #555;
+    cursor: pointer;
+}
+
+.nav-links a:hover {
+    color: #007acc;
+}
+
+.nav-right img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-left img {
+    width: 20px;
+    height: 20px;
+}
+
+.download-btn{
+    background-color: #0078d4;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 3px;
+}
+
+.version-heading{
+     background-color: #080808;
+    display: flex;
+    justify-content: center;
+}
+
+.version{
+    color: #0078d4;
+}
+
+.Download-bar{
+  height: 20vh;
+  background-color: #121212;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px;
+}
+
+.overlay{
+  border: solid 1px #737884;
+  border-radius: 20px;
+  background-color: #191919;
+  padding: 6px 6px;
+  width:350px;
+  color: #7c828f;
+  display: flex;
+  justify-content: center;
+}
+
+.BigHeading{
+ font-size: 70px;
+ font-weight: bold;
+}
+
+.Download-mac-btn{                                         
+ color: white;
+ background-color: #0078d4;
+ width: 170px;
+ padding: 15px 20px;
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+}
+
+.language-bar{
+ background-color: #000000;
+ margin: 0 auto;
+ padding: 20px 100px;
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+}
+
+.languagePanel{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.languagePanel img {
+ height: 40px;
+ width: auto;
+ padding-inline: 2.5rem
+}
+
+.verticalCenter {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100%;
+}
+
+.section-3{
+ display: flex;
+ justify-content: center;
+ height: 200px;
+ padding: 20px;
+}
+
+.box{
+ display: flex;
+ flex-direction: column;
+ align-items: center; 
+ width: 400px;
+}
+
+.section-4{
+ background-color: #333333; 
+ height: 75px;
+ padding: 20px 40px;
+}
